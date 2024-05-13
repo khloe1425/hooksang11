@@ -1,0 +1,3 @@
+#navbarSupportedContent .nav-link.active, #navbarSupportedContent .nav-link.myActive{
+    color: orange;
+}
