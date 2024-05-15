@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
 import numberReducer from './reducers/numberReducer'
+import fakeBookReducer from './reducers/fakeBookReducer'
 
 // Tạo store
 export const store = configureStore({
@@ -7,7 +8,8 @@ export const store = configureStore({
     reducer:{
         // number:numberReducer
         // numberReducer: numberReducer
-        numberReducer
+        numberReducer,
+        fakeBookReducer
     }
 }, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
