@@ -9,6 +9,7 @@ import DemoUseEffect from "../pages/DemoUseEffect";
 import ShoeDetail from "../pages/ShoeDetail";
 import DemoReduxToolkit from "../pages/DemoReduxToolkit";
 import Fakebook from "../pages/Fakebook";
+import Login from "../pages/Login";
 
 const useRoutesCustom = () => {
   const myRoutes = useRoutes([
@@ -51,6 +52,10 @@ const useRoutesCustom = () => {
         {
           path: "fakebook",
           element: <Fakebook />,
+        },
+        {
+          path: "login",
+          element: <Login />,
         },
 
         //trường hợp path không tồn tại thì vào path:"*"
